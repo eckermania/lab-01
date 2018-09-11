@@ -1,0 +1,54 @@
+html {
+    font-size: 20px;
+    text-align: center;
+}
+
+div, footer {
+    background-color: lightblue;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid darkblue;
+}
+
+#a {
+    float: left;
+    height: 71px;
+    width: 476px;
+    line-height: 75px;
+    
+}
+
+#b {
+    float: left;
+    height: 146px;
+    width: 476px;
+    line-height: 150px
+}
+
+#c {
+    float: left;
+    height: 121px;
+    width: 476px;
+    line-height: 125px;
+}
+
+#d {
+    float: left;
+    height: 121px;
+    width: 476px;
+    line-height: 125px;
+}
+
+#e, #f, #g, #h {
+    float: left;
+    height: 246px;
+    width: 236px; 
+    line-height: 250px;
+}
+
+footer {
+    float: left;
+    width: 476px;
+    height: 76px;
+}
+
