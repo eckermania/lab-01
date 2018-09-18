@@ -3,9 +3,17 @@ html {
     text-align: center;
 }
 
-body {
-    width: 786px;
+#master-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    width: 480px;
     margin: 0px auto;
+}
+
+#inner-container {
+    display: flex;
+    flex-flow: row wrap;
 }
 
 div {
@@ -14,7 +22,6 @@ div {
 }
 
 #a {
-    float: left;
     height: 75px;
     width: 480px;
     line-height: 75px;
@@ -22,7 +29,6 @@ div {
 }
 
 #b {
-    float: left;
     height: 150px;
     width: 480px;
     line-height: 150px;
@@ -30,7 +36,6 @@ div {
 }
 
 #c {
-    float: left;
     height: 125px;
     width: 480px;
     line-height: 125px;
@@ -38,22 +43,18 @@ div {
 }
 
 #d {
-    float: left;
+
     height: 125px;
     width: 480px;
     line-height: 125px;
     background-color: lightgoldenrodyellow;
 }
 
-#desktop-group {
-    float: left;
-}
 
 #e, #f, #g, #h {
     height: 250px;
     width: 240px; 
     line-height: 250px;
-    float: left;
 }
 
 #e {
@@ -65,7 +66,7 @@ div {
 }
 
 #g {
-    clear: both;
+
     background-color: lightpink;
 }
 
@@ -74,8 +75,6 @@ div {
 }
 
 #i {
-    clear: both;
-    float: left;
     width: 480px;
     height: 80px;
     background-color: lightslategray;
@@ -83,25 +82,27 @@ div {
 }
 
 @media only screen and (min-width: 768px) { 
+    #master-container{
+        width: 960px;
+        margin: 0px auto;
+    }
+
+    #inner-container {
+        width: 760px;
+    }
+
     div {
         color: white;
     }
 
-    body {
-        width: 960px;
-        margin: 0px auto;
-    }
 
     #a {
         width: 960px;
         height: 100px;
-        margin: 0px auto;
         background-color: darkblue;
         line-height: 100px;
     }
     #b {
-        clear: both;
-        float: left;
         width: 200px;
         height: 600px;
         background-color: darkorchid;
@@ -109,7 +110,6 @@ div {
     }
 
     #c {
-        float: left;
         width: 380px;
         height: 200px;
         background-color: darkgoldenrod;
@@ -117,7 +117,6 @@ div {
     }
 
     #d {
-        float: left;
         width: 380px;
         height: 200px;
         background-color: darkgreen;
@@ -125,8 +124,6 @@ div {
     }
     
     #e {
-        clear: left;
-        float: left;
         width: 190px;
         height: 250px;
         background-color: darkorange;
@@ -134,7 +131,6 @@ div {
     }
 
     #f {
-        float: left;
         width: 190px;
         height: 250px;
         background-color: darkred;
@@ -142,8 +138,6 @@ div {
     }
 
     #g {
-        clear: none;
-        float: left;
         width: 190px;
         height: 250px;
         background-color: darkslateblue;
@@ -151,7 +145,6 @@ div {
     }
 
     #h {
-        float: left;
         width: 190px;
         height: 250px;
         background-color: darksalmon;
@@ -159,11 +152,9 @@ div {
     }
 
     #i {
-        clear: none;
         width: 760px;
         height: 150px;
         background-color: darkslategrey;
         line-height: 760px;
-        color: white;
     }
 }
