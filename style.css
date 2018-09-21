@@ -158,3 +158,81 @@ div {
         line-height: 760px;
     }
 }
+
+@media only screen and (min-width: 2560px) { 
+    #master-container{
+        width: 2560px;
+        margin: 0px auto;
+    }
+
+    #inner-container {
+        width: 2022.4px;
+    }
+
+    div {
+        color: white;
+    }
+
+
+    #a {
+        width: 2560px;
+        height: 100px;
+        background-color: green;
+        line-height: 100px;
+    }
+    #b {
+        width: 537.6px;
+        height: 600px;
+        background-color: gold;
+        line-height: 600px;
+    }
+
+    #c {
+        width: 1011.2px;
+        height: 200px;
+        background-color: gray;
+        line-height: 200px;
+    }
+
+    #d {
+        width: 1011.2px;
+        height: 200px;
+        background-color: hotpink;
+        line-height: 200px;
+    }
+    
+    #e {
+        width: 505.6px;
+        height: 250px;
+        background-color: indigo;
+        line-height: 250px;
+    }
+
+    #f {
+        width: 505.6px;
+        height: 250px;
+        background-color: indianred;
+        line-height: 250px;
+    }
+
+    #g {
+        width: 505.6px;
+        height: 250px;
+        background-color: khaki;
+        line-height: 250px;
+    }
+
+    #h {
+        width: 505.6px;
+        height: 250px;
+        background-color:lawngreen;
+        line-height: 250px;
+    }
+
+    #i {
+        width: 2022.4px;
+        height: 150px;
+        background-color: maroon;
+        line-height: 760px;
+    }
+}
